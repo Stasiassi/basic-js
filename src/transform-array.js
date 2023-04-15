@@ -19,7 +19,8 @@ function transform(arr) {
   let newArr = arr.slice();
   for( let i = 0; i < newArr.length; i++)
   {
-    if(typeof newArr[i] === 'string' || newArr[i] instanceof String){
+    if(typeof newArr[i] === 'string' || newArr[i] instanceof String)
+    {
       switch(newArr[i])
       {
         case '--discard-next':
